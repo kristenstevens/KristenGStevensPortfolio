@@ -84,6 +84,10 @@ p, ul {
 
  /* NAV */
 
+.site-logo {
+    zoom: 75%:
+}
+
  nav.main-nav {
    position:fixed;
    background-color:#FFFFFF;
@@ -176,6 +180,7 @@ nav.main-nav ul > li > a:hover {
      font-size: 2em;
      padding: 10px 20px;
      text-decoration: none;
+       zoom: 55%;
    }
  
    .header-mobile .menu {

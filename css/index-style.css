@@ -151,6 +151,13 @@ font-weight: 400;
     width: 100%;
     z-index: 9999;
    }
+    
+    .header-mobile img {
+        zoom: 55%;
+        padding-left: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
  
    .header-mobile ul {
      margin: 0;
@@ -262,7 +269,7 @@ font-weight: 400;
 /* BANNER */
 
 .site-logo {
-    zoom: 50%;
+    zoom: 75%;
 }
 
 .home-banner {
@@ -320,7 +327,9 @@ font-weight: 400;
 }
 
 #statementlogo {
-    zoom: 100%;
+    zoom: 120%;
+    padding-top: 3%;
+    padding-bottom: 2%;
 }
 
 /* HOVER EFFECT BUTTONS AND TILES */
@@ -509,7 +518,9 @@ font-weight: 400;
     .tile {
         zoom: 90%;
         padding-bottom: 2%;
+        margin-left: 25%;
         display: block;
+        text-align: center;
     }
     .work {
         zoom: 50%;

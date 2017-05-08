@@ -87,6 +87,10 @@ p, ul {
 
  /* NAV */
 
+.main-nav img {
+    zoom: 75%;
+}
+
  nav.main-nav {
    position:fixed;
    background-color:#FFFFFF;
@@ -148,6 +152,13 @@ nav.main-nav ul > li > a:hover {
     width: 100%;
     z-index: 9999;
    }
+    
+     .header-mobile img {
+        zoom: 55%;
+        padding-left: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
  
    .header-mobile ul {
      margin: 0;
@@ -445,6 +456,7 @@ nav.main-nav ul > li > a:hover {
     .tile {
         zoom: 90%;
         padding-bottom: 2%;
+        margin-left: 25%;
         display: block;
     }
     .work {
